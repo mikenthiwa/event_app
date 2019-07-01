@@ -1,0 +1,19 @@
+{
+  "name": "event_app",
+  "version": "1.0.0",
+  "description": "event application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikenthiwa/event_app.git"
+  },
+  "author": "mike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikenthiwa/event_app/issues"
+  },
+  "homepage": "https://github.com/mikenthiwa/event_app#readme"
+}
