@@ -1,0 +1,39 @@
+{
+  "name": "event_app",
+  "version": "1.0.0",
+  "description": "event application",
+  "main": "src/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon node_modules/.bin/babel-node src/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikenthiwa/event_app.git"
+  },
+  "author": "mike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikenthiwa/event_app/issues"
+  },
+  "homepage": "https://github.com/mikenthiwa/event_app#readme",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.1",
+    "graphql-playground-middleware-express": "^1.7.12",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
